@@ -3,7 +3,7 @@
 
 !define NAME "civ5zh"
 !define FULLNAME "Civilization V 正簡雙漢化"
-!define VERSION "1.0.2.21b4"
+!define VERSION "1.0.2.21b5"
 
 Name "${FULLNAME} ${VERSION}"
 
@@ -166,20 +166,11 @@ Section -un.Main UNSEC0000
     Delete "$INSTDIR\assets\UI\Options\OptionsMenu.xml"
     Delete "$INSTDIR\assets\DLC\Expansion\UI\Options\OptionsMenu.xml"
     Rename "$INSTDIR\${NAME}\assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml" "$INSTDIR\assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml"
-    #SetOutPath "$INSTDIR\assets\UI\Fonts\Tw Cent MT"
-    #File "$INSTDIR\${NAME}\assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml"
     Rename "$INSTDIR\${NAME}\assets\UI\Options\OptionsMenu.xml" "$INSTDIR\assets\UI\Options\OptionsMenu.xml"
-    #SetOutPath "$INSTDIR\assets\UI\Options"
-    #File "$INSTDIR\${NAME}\assets\UI\Options\OptionsMenu.xml"
     Rename "$INSTDIR\${NAME}\assets\DLC\Expansion\UI\Options\OptionsMenu.xml" "$INSTDIR\assets\DLC\Expansion\UI\Options\OptionsMenu.xml"
-    #SetOutPath "$INSTDIR\assets\DLC\Expansion\UI\Options"
-    #File "$INSTDIR\${NAME}\assets\DLC\Expansion\UI\Options\OptionsMenu.xml"
     #Delete and Rename SQLs
     Delete "$INSTDIR\assets\SQL\Civ5LocalizationDatabaseSchema.sql"
     Delete "$INSTDIR\assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql"
-    #SetOutPath "$INSTDIR\assets\SQL"
-    #File "$INSTDIR\${NAME}\assets\SQL\Civ5LocalizationDatabaseSchema.sql"
-    #File "$INSTDIR\${NAME}\assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql"
     Rename "$INSTDIR\${NAME}\assets\SQL\Civ5LocalizationDatabaseSchema.sql" "$INSTDIR\assets\SQL\Civ5LocalizationDatabaseSchema.sql"
     Rename "$INSTDIR\${NAME}\assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql" "$INSTDIR\assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql"
     RmDir /r "$INSTDIR\${NAME}"

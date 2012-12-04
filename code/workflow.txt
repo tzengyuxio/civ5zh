@@ -1,0 +1,9 @@
+1. run __init__.py
+
+2. edit 
+   - civ5zh_readme.txt
+   - edit civ5zh.nsi (version number)
+
+3. compile civ5zh.nsi
+
+4. zip "~.exe" and "~.txt" to a file.

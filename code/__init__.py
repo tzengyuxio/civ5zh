@@ -97,7 +97,7 @@ def convertZ(src, dst):
     os.chdir(absDirOpencc)
 
     ## 轉碼
-    cccmd = 'opencc.exe -i "%s" -o "%s" -c zhs2zht.ini' % (src, dst)
+    cccmd = 'opencc.exe -i "%s" -o "%s" -c zhs2zhtw_p.ini' % (src, dst)
     os.system(cccmd)
     countFile += 1
 
