@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<glyphgen>
+    <textures width="512" height="512">
+        <texture name="" src="TwCenMT16.dds" allowcolor="1" alloweffects="1" inuse="1" />
+        <texture name="TwCenMT14Base" src="TwCenMT16Base.dds" allowcolor="1" alloweffects="1" inuse="1" />
+        <texture name="TwCenMT14Soft" src="TwCenMT16Soft.dds" allowcolor="1" alloweffects="1" inuse="1" />
+        <texture name="TwCenMT14Shadow" src="TwCenMT16Shadow.dds" allowcolor="1" alloweffects="1" inuse="1" />
+        <texture name="TwCenMT14Stroke" src="TwCenMT16Stroke.dds" allowcolor="1" alloweffects="1" inuse="1" />
+    </textures>
+    <styles count="6">
+        <style name="">
+            <layers count="1">
+                <layer tex="" />
+            </layers>
+        </style>
+        <style name="Base">
+            <layers count="1">
+                <layer tex="TwCenMT14Base" />
+            </layers>
+        </style>
+        <style name="Soft">
+            <layers count="2">
+                <layer tex="TwCenMT14Base" />
+                <layer tex="TwCenMT14Soft" />
+            </layers>
+        </style>
+        <style name="Shadow">
+            <layers count="2">
+                <layer tex="TwCenMT14Base" />
+                <layer tex="TwCenMT14Shadow" />
+            </layers>
+        </style>
+        <style name="Stroke">
+            <layers count="2">
+                <layer tex="TwCenMT14Base" />
+                <layer tex="TwCenMT14Stroke" />
+            </layers>
+        </style>
+        <style name="SoftShadow">
+            <layers count="3">
+                <layer tex="TwCenMT14Base" />
+                <layer tex="TwCenMT14Shadow" />
+                <layer tex="TwCenMT14Soft" />
+            </layers>
+        </style>
+    </styles>
+    <glyphs fudgeadv="0" ascadj="2" spacing="6" count="195" height="16" ascent="14" descent="4">
+        <glyph ch="32" u="6" v="6" width="0" height="0" a="0" b="4" c="0" originx="0" originy="0" />
+        <glyph ch="33" u="34" v="6" width="3" height="11" a="0" b="3" c="0" originx="0" originy="11" />
+        <glyph ch="34" u="62" v="6" width="6" height="4" a="0" b="6" c="0" originx="0" originy="12" />
+        <glyph ch="35" u="90" v="6" width="9" height="12" a="1" b="10" c="0" originx="1" originy="12" />
+        <glyph ch="36" u="118" v="6" width="8" height="14" a="1" b="8" c="0" originx="1" originy="12" />
+        <glyph ch="37" u="146" v="6" width="14" height="11" a="0" b="14" c="0" originx="0" originy="11" />
+        <glyph ch="38" u="174" v="6" width="11" height="11" a="0" b="11" c="0" originx="0" originy="11" />
+        <glyph ch="39" u="202" v="6" width="3" height="4" a="0" b="3" c="0" originx="0" originy="12" />
+        <glyph ch="40" u="230" v="6" width="4" height="15" a="0" b="4" c="0" originx="0" originy="11" />
+        <glyph ch="41" u="258" v="6" width="4" height="15" a="0" b="4" c="0" originx="0" originy="11" />
+        <glyph ch="42" u="286" v="6" width="7" height="7" a="1" b="7" c="0" originx="1" originy="11" />
+        <glyph ch="43" u="314" v="6" width="9" height="9" a="1" b="10" c="0" originx="1" originy="10" />
+        <glyph ch="44" u="342" v="6" width="4" height="6" a="0" b="4" c="0" originx="0" originy="3" />
+        <glyph ch="45" u="370" v="6" width="4" height="3" a="1" b="5" c="0" originx="1" originy="5" />
+        <glyph ch="46" u="398" v="6" width="3" height="3" a="1" b="3" c="0" originx="1" originy="3" />
+        <glyph ch="47" u="426" v="6" width="8" height="16" a="0" b="8" c="0" originx="0" originy="12" />
+        <glyph ch="48" u="454" v="6" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="49" u="482" v="6" width="4" height="11" a="2" b="7" c="0" originx="2" originy="11" />
+        <glyph ch="50" u="6" v="34" width="8" height="11" a="1" b="8" c="0" originx="1" originy="11" />
+        <glyph ch="51" u="34" v="34" width="8" height="11" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="52" u="62" v="34" width="8" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="53" u="90" v="34" width="8" height="11" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="54" u="118" v="34" width="9" height="12" a="0" b="9" c="0" originx="0" originy="12" />
+        <glyph ch="55" u="146" v="34" width="9" height="12" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="56" u="174" v="34" width="8" height="11" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="57" u="202" v="34" width="9" height="12" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="58" u="230" v="34" width="3" height="6" a="1" b="3" c="0" originx="1" originy="6" />
+        <glyph ch="59" u="258" v="34" width="4" height="10" a="0" b="4" c="0" originx="0" originy="7" />
+        <glyph ch="60" u="286" v="34" width="8" height="9" a="1" b="9" c="0" originx="1" originy="10" />
+        <glyph ch="61" u="314" v="34" width="9" height="7" a="1" b="10" c="0" originx="1" originy="9" />
+        <glyph ch="62" u="342" v="34" width="8" height="9" a="1" b="9" c="0" originx="1" originy="10" />
+        <glyph ch="63" u="370" v="34" width="6" height="11" a="0" b="6" c="0" originx="0" originy="11" />
+        <glyph ch="64" u="398" v="34" width="16" height="17" a="0" b="16" c="0" originx="0" originy="14" />
+        <glyph ch="65" u="426" v="34" width="10" height="12" a="0" b="10" c="0" originx="0" originy="12" />
+        <glyph ch="66" u="454" v="34" width="8" height="11" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="67" u="482" v="34" width="10" height="11" a="0" b="10" c="0" originx="0" originy="11" />
+        <glyph ch="68" u="6" v="62" width="10" height="11" a="0" b="10" c="0" originx="0" originy="11" />
+        <glyph ch="69" u="34" v="62" width="7" height="11" a="0" b="7" c="0" originx="0" originy="11" />
+        <glyph ch="70" u="62" v="62" width="7" height="11" a="0" b="7" c="0" originx="0" originy="11" />
+        <glyph ch="71" u="90" v="62" width="12" height="11" a="0" b="13" c="0" originx="0" originy="11" />
+        <glyph ch="72" u="118" v="62" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="73" u="146" v="62" width="3" height="11" a="0" b="3" c="0" originx="0" originy="11" />
+        <glyph ch="74" u="174" v="62" width="6" height="11" a="0" b="7" c="0" originx="0" originy="11" />
+        <glyph ch="75" u="202" v="62" width="9" height="11" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="76" u="230" v="62" width="6" height="11" a="0" b="6" c="0" originx="0" originy="11" />
+        <glyph ch="77" u="258" v="62" width="12" height="12" a="0" b="12" c="0" originx="0" originy="11" />
+        <glyph ch="78" u="286" v="62" width="10" height="13" a="0" b="10" c="0" originx="0" originy="12" />
+        <glyph ch="79" u="314" v="62" width="13" height="11" a="0" b="13" c="0" originx="0" originy="11" />
+        <glyph ch="80" u="342" v="62" width="7" height="11" a="1" b="7" c="0" originx="1" originy="11" />
+        <glyph ch="81" u="370" v="62" width="13" height="11" a="0" b="13" c="0" originx="0" originy="11" />
+        <glyph ch="82" u="398" v="62" width="7" height="11" a="0" b="7" c="0" originx="0" originy="11" />
+        <glyph ch="83" u="426" v="62" width="8" height="11" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="84" u="454" v="62" width="6" height="11" a="0" b="7" c="0" originx="0" originy="11" />
+        <glyph ch="85" u="482" v="62" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="86" u="6" v="90" width="10" height="11" a="0" b="10" c="0" originx="0" originy="11" />
+        <glyph ch="87" u="34" v="90" width="16" height="12" a="0" b="16" c="0" originx="0" originy="12" />
+        <glyph ch="88" u="62" v="90" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="89" u="90" v="90" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="90" u="118" v="90" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="91" u="146" v="90" width="4" height="15" a="0" b="4" c="0" originx="0" originy="11" />
+        <glyph ch="92" u="174" v="90" width="8" height="16" a="0" b="8" c="0" originx="0" originy="12" />
+        <glyph ch="93" u="202" v="90" width="5" height="15" a="-1" b="5" c="0" originx="-1" originy="11" />
+        <glyph ch="94" u="230" v="90" width="8" height="7" a="0" b="8" c="0" originx="0" originy="13" />
+        <glyph ch="95" u="258" v="90" width="8" height="3" a="0" b="8" c="0" originx="0" originy="0" />
+        <glyph ch="96" u="286" v="90" width="4" height="3" a="0" b="5" c="0" originx="0" originy="10" />
+        <glyph ch="97" u="314" v="90" width="9" height="7" a="0" b="9" c="0" originx="0" originy="7" />
+        <glyph ch="98" u="342" v="90" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="99" u="370" v="90" width="7" height="7" a="0" b="7" c="0" originx="0" originy="7" />
+        <glyph ch="100" u="398" v="90" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="101" u="426" v="90" width="7" height="7" a="1" b="8" c="0" originx="1" originy="7" />
+        <glyph ch="102" u="454" v="90" width="4" height="11" a="0" b="5" c="0" originx="0" originy="11" />
+        <glyph ch="103" u="482" v="90" width="9" height="10" a="0" b="9" c="0" originx="0" originy="7" />
+        <glyph ch="104" u="6" v="118" width="7" height="11" a="0" b="7" c="0" originx="0" originy="11" />
+        <glyph ch="105" u="34" v="118" width="3" height="10" a="1" b="3" c="0" originx="1" originy="10" />
+        <glyph ch="106" u="62" v="118" width="3" height="13" a="1" b="3" c="0" originx="1" originy="10" />
+        <glyph ch="107" u="90" v="118" width="7" height="11" a="0" b="7" c="0" originx="0" originy="11" />
+        <glyph ch="108" u="118" v="118" width="3" height="11" a="0" b="3" c="0" originx="0" originy="11" />
+        <glyph ch="109" u="146" v="118" width="11" height="7" a="0" b="11" c="0" originx="0" originy="7" />
+        <glyph ch="110" u="174" v="118" width="7" height="7" a="0" b="7" c="0" originx="0" originy="7" />
+        <glyph ch="111" u="202" v="118" width="9" height="7" a="0" b="9" c="0" originx="0" originy="7" />
+        <glyph ch="112" u="230" v="118" width="9" height="10" a="0" b="9" c="0" originx="0" originy="7" />
+        <glyph ch="113" u="258" v="118" width="9" height="10" a="0" b="9" c="0" originx="0" originy="7" />
+        <glyph ch="114" u="286" v="118" width="5" height="7" a="0" b="5" c="0" originx="0" originy="7" />
+        <glyph ch="115" u="314" v="118" width="6" height="7" a="0" b="6" c="0" originx="0" originy="7" />
+        <glyph ch="116" u="342" v="118" width="4" height="9" a="0" b="4" c="0" originx="0" originy="9" />
+        <glyph ch="117" u="370" v="118" width="7" height="7" a="0" b="7" c="0" originx="0" originy="7" />
+        <glyph ch="118" u="398" v="118" width="7" height="8" a="0" b="7" c="0" originx="0" originy="7" />
+        <glyph ch="119" u="426" v="118" width="11" height="8" a="0" b="11" c="0" originx="0" originy="8" />
+        <glyph ch="120" u="454" v="118" width="8" height="7" a="0" b="8" c="0" originx="0" originy="7" />
+        <glyph ch="121" u="482" v="118" width="8" height="10" a="0" b="8" c="0" originx="0" originy="7" />
+        <glyph ch="122" u="6" v="146" width="8" height="7" a="-1" b="8" c="0" originx="-1" originy="7" />
+        <glyph ch="123" u="34" v="146" width="6" height="18" a="0" b="6" c="0" originx="0" originy="13" />
+        <glyph ch="124" u="62" v="146" width="3" height="14" a="3" b="6" c="0" originx="3" originy="12" />
+        <glyph ch="125" u="90" v="146" width="6" height="18" a="0" b="6" c="0" originx="0" originy="13" />
+        <glyph ch="126" u="118" v="146" width="8" height="4" a="1" b="9" c="0" originx="1" originy="7" />
+        <glyph ch="160" u="146" v="146" width="0" height="0" a="0" b="4" c="0" originx="0" originy="0" />
+        <glyph ch="161" u="174" v="146" width="3" height="11" a="0" b="3" c="0" originx="0" originy="10" />
+        <glyph ch="162" u="202" v="146" width="7" height="13" a="0" b="7" c="0" originx="0" originy="10" />
+        <glyph ch="163" u="230" v="146" width="10" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="164" u="258" v="146" width="9" height="9" a="1" b="10" c="0" originx="1" originy="10" />
+        <glyph ch="165" u="286" v="146" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="166" u="314" v="146" width="3" height="14" a="3" b="6" c="0" originx="3" originy="12" />
+        <glyph ch="167" u="342" v="146" width="8" height="14" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="168" u="370" v="146" width="6" height="3" a="0" b="5" c="0" originx="0" originy="11" />
+        <glyph ch="169" u="398" v="146" width="14" height="14" a="-1" b="13" c="0" originx="-1" originy="14" />
+        <glyph ch="170" u="426" v="146" width="6" height="6" a="0" b="6" c="0" originx="0" originy="11" />
+        <glyph ch="171" u="454" v="146" width="8" height="8" a="0" b="8" c="0" originx="0" originy="9" />
+        <glyph ch="172" u="482" v="146" width="10" height="7" a="1" b="10" c="0" originx="1" originy="9" />
+        <glyph ch="173" u="6" v="174" width="4" height="3" a="1" b="5" c="0" originx="1" originy="5" />
+        <glyph ch="174" u="34" v="174" width="14" height="14" a="-1" b="13" c="0" originx="-1" originy="14" />
+        <glyph ch="175" u="62" v="174" width="8" height="3" a="0" b="8" c="0" originx="0" originy="14" />
+        <glyph ch="176" u="90" v="174" width="6" height="6" a="0" b="6" c="0" originx="0" originy="13" />
+        <glyph ch="177" u="118" v="174" width="9" height="12" a="1" b="10" c="0" originx="1" originy="12" />
+        <glyph ch="178" u="146" v="174" width="7" height="8" a="0" b="7" c="0" originx="0" originy="11" />
+        <glyph ch="179" u="174" v="174" width="6" height="8" a="1" b="6" c="0" originx="1" originy="11" />
+        <glyph ch="180" u="202" v="174" width="4" height="3" a="1" b="4" c="0" originx="1" originy="10" />
+        <glyph ch="181" u="230" v="174" width="8" height="12" a="0" b="8" c="0" originx="0" originy="9" />
+        <glyph ch="182" u="258" v="174" width="9" height="16" a="-1" b="9" c="0" originx="-1" originy="13" />
+        <glyph ch="183" u="286" v="174" width="3" height="3" a="1" b="3" c="0" originx="1" originy="7" />
+        <glyph ch="184" u="314" v="174" width="5" height="5" a="0" b="5" c="0" originx="0" originy="2" />
+        <glyph ch="185" u="342" v="174" width="4" height="8" a="1" b="6" c="0" originx="1" originy="11" />
+        <glyph ch="186" u="370" v="174" width="6" height="6" a="0" b="5" c="0" originx="0" originy="11" />
+        <glyph ch="187" u="398" v="174" width="8" height="8" a="0" b="8" c="0" originx="0" originy="9" />
+        <glyph ch="188" u="426" v="174" width="13" height="12" a="1" b="14" c="0" originx="1" originy="11" />
+        <glyph ch="189" u="454" v="174" width="14" height="12" a="1" b="14" c="0" originx="1" originy="11" />
+        <glyph ch="190" u="482" v="174" width="14" height="13" a="1" b="14" c="0" originx="1" originy="11" />
+        <glyph ch="191" u="6" v="202" width="6" height="12" a="0" b="6" c="0" originx="0" originy="10" />
+        <glyph ch="192" u="34" v="202" width="10" height="14" a="0" b="10" c="0" originx="0" originy="14" />
+        <glyph ch="193" u="62" v="202" width="10" height="14" a="0" b="10" c="0" originx="0" originy="14" />
+        <glyph ch="194" u="90" v="202" width="10" height="14" a="0" b="10" c="0" originx="0" originy="14" />
+        <glyph ch="195" u="118" v="202" width="10" height="15" a="-1" b="10" c="0" originx="-1" originy="15" />
+        <glyph ch="196" u="146" v="202" width="10" height="14" a="0" b="9" c="0" originx="0" originy="14" />
+        <glyph ch="197" u="174" v="202" width="11" height="16" a="0" b="10" c="0" originx="0" originy="16" />
+        <glyph ch="198" u="202" v="202" width="13" height="11" a="0" b="13" c="0" originx="0" originy="11" />
+        <glyph ch="199" u="230" v="202" width="10" height="14" a="0" b="10" c="0" originx="0" originy="11" />
+        <glyph ch="200" u="258" v="202" width="7" height="14" a="0" b="7" c="0" originx="0" originy="14" />
+        <glyph ch="201" u="286" v="202" width="7" height="14" a="0" b="7" c="0" originx="0" originy="14" />
+        <glyph ch="202" u="314" v="202" width="7" height="15" a="0" b="7" c="0" originx="0" originy="15" />
+        <glyph ch="203" u="342" v="202" width="7" height="14" a="0" b="7" c="0" originx="0" originy="14" />
+        <glyph ch="204" u="370" v="202" width="4" height="14" a="-1" b="4" c="0" originx="-1" originy="14" />
+        <glyph ch="205" u="398" v="202" width="4" height="14" a="0" b="3" c="0" originx="0" originy="14" />
+        <glyph ch="206" u="426" v="202" width="5" height="15" a="-1" b="4" c="0" originx="-1" originy="15" />
+        <glyph ch="207" u="454" v="202" width="6" height="14" a="-1" b="5" c="0" originx="-1" originy="14" />
+        <glyph ch="208" u="482" v="202" width="10" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="209" u="6" v="230" width="10" height="16" a="0" b="10" c="0" originx="0" originy="15" />
+        <glyph ch="210" u="34" v="230" width="13" height="15" a="0" b="13" c="0" originx="0" originy="15" />
+        <glyph ch="211" u="62" v="230" width="13" height="15" a="0" b="13" c="0" originx="0" originy="15" />
+        <glyph ch="212" u="90" v="230" width="13" height="14" a="0" b="13" c="0" originx="0" originy="14" />
+        <glyph ch="213" u="118" v="230" width="13" height="15" a="0" b="13" c="0" originx="0" originy="15" />
+        <glyph ch="214" u="146" v="230" width="13" height="15" a="0" b="13" c="0" originx="0" originy="15" />
+        <glyph ch="215" u="174" v="230" width="9" height="9" a="1" b="10" c="0" originx="1" originy="10" />
+        <glyph ch="216" u="202" v="230" width="12" height="13" a="0" b="12" c="0" originx="0" originy="12" />
+        <glyph ch="217" u="230" v="230" width="9" height="15" a="0" b="9" c="0" originx="0" originy="15" />
+        <glyph ch="218" u="258" v="230" width="9" height="15" a="0" b="9" c="0" originx="0" originy="15" />
+        <glyph ch="219" u="286" v="230" width="9" height="15" a="0" b="9" c="0" originx="0" originy="15" />
+        <glyph ch="220" u="314" v="230" width="9" height="15" a="0" b="9" c="0" originx="0" originy="15" />
+        <glyph ch="221" u="342" v="230" width="9" height="14" a="0" b="9" c="0" originx="0" originy="14" />
+        <glyph ch="222" u="370" v="230" width="7" height="11" a="1" b="7" c="0" originx="1" originy="11" />
+        <glyph ch="223" u="398" v="230" width="8" height="11" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="224" u="426" v="230" width="9" height="10" a="0" b="9" c="0" originx="0" originy="10" />
+        <glyph ch="225" u="454" v="230" width="9" height="10" a="0" b="9" c="0" originx="0" originy="10" />
+        <glyph ch="226" u="482" v="230" width="9" height="10" a="0" b="9" c="0" originx="0" originy="10" />
+        <glyph ch="227" u="6" v="258" width="9" height="10" a="0" b="9" c="0" originx="0" originy="10" />
+        <glyph ch="228" u="34" v="258" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="229" u="62" v="258" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="230" u="90" v="258" width="14" height="7" a="0" b="14" c="0" originx="0" originy="7" />
+        <glyph ch="231" u="118" v="258" width="6" height="10" a="0" b="6" c="0" originx="0" originy="7" />
+        <glyph ch="232" u="146" v="258" width="7" height="10" a="1" b="8" c="0" originx="1" originy="10" />
+        <glyph ch="233" u="174" v="258" width="7" height="10" a="1" b="8" c="0" originx="1" originy="10" />
+        <glyph ch="234" u="202" v="258" width="7" height="10" a="1" b="8" c="0" originx="1" originy="10" />
+        <glyph ch="235" u="230" v="258" width="7" height="11" a="1" b="8" c="0" originx="1" originy="11" />
+        <glyph ch="236" u="258" v="258" width="4" height="10" a="-1" b="4" c="0" originx="-1" originy="10" />
+        <glyph ch="237" u="286" v="258" width="4" height="10" a="0" b="3" c="0" originx="0" originy="10" />
+        <glyph ch="238" u="314" v="258" width="6" height="10" a="-2" b="5" c="0" originx="-2" originy="10" />
+        <glyph ch="239" u="342" v="258" width="6" height="11" a="-1" b="5" c="0" originx="-1" originy="11" />
+        <glyph ch="240" u="370" v="258" width="9" height="11" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="241" u="398" v="258" width="7" height="10" a="0" b="7" c="0" originx="0" originy="10" />
+        <glyph ch="242" u="426" v="258" width="9" height="10" a="0" b="9" c="0" originx="0" originy="10" />
+        <glyph ch="243" u="454" v="258" width="9" height="10" a="0" b="9" c="0" originx="0" originy="10" />
+        <glyph ch="244" u="482" v="258" width="9" height="10" a="0" b="9" c="0" originx="0" originy="10" />
+        <glyph ch="245" u="6" v="286" width="9" height="10" a="0" b="9" c="0" originx="0" originy="10" />
+        <glyph ch="246" u="34" v="286" width="9" height="11" a="0" b="9" c="0" originx="0" originy="11" />
+        <glyph ch="247" u="62" v="286" width="9" height="10" a="1" b="10" c="0" originx="1" originy="11" />
+        <glyph ch="248" u="90" v="286" width="9" height="9" a="0" b="9" c="0" originx="0" originy="8" />
+        <glyph ch="249" u="118" v="286" width="7" height="10" a="0" b="7" c="0" originx="0" originy="10" />
+        <glyph ch="250" u="146" v="286" width="7" height="10" a="0" b="7" c="0" originx="0" originy="10" />
+        <glyph ch="251" u="174" v="286" width="7" height="10" a="0" b="7" c="0" originx="0" originy="10" />
+        <glyph ch="252" u="202" v="286" width="7" height="11" a="0" b="7" c="0" originx="0" originy="11" />
+        <glyph ch="253" u="230" v="286" width="8" height="13" a="0" b="8" c="0" originx="0" originy="10" />
+        <glyph ch="254" u="258" v="286" width="8" height="14" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="255" u="286" v="286" width="8" height="14" a="0" b="8" c="0" originx="0" originy="11" />
+        <glyph ch="338" u="314" v="286" width="13" height="11" a="0" b="13" c="0" originx="0" originy="11" />
+        <glyph ch="339" u="342" v="286" width="13" height="7" a="0" b="14" c="0" originx="0" originy="7" />
+        <glyph ch="344" u="370" v="286" width="7" height="14" a="0" b="7" c="0" originx="0" originy="14" />
+        <glyph ch="345" u="398" v="286" width="6" height="10" a="0" b="5" c="0" originx="0" originy="10" />
+    </glyphs>
+    <imports count="0" />
+    <toolonly>
+        <metainfo pt="16.000000" width="512" height="512" alphabias="64" maxsize="1024" bestfit="0" pow2="1" freetype="1" fontsrc="C:\Windows\Fonts\TCM_____.TTF" />
+        <glyphsets>
+            <set name="GlyphSetAscii" />
+            <set name="GlyphSetCustom" start="344" count="2" />
+            <set name="GlyphSetCustom" start="338" count="2" />
+        </glyphsets>
+    </toolonly>
+</glyphgen>
