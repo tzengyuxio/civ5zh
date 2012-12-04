@@ -3,7 +3,7 @@
 
 !define NAME "civ5zh"
 !define FULLNAME "Civilization V 正簡雙漢化"
-!define VERSION "1.0.2.13b3"
+!define VERSION "1.0.2.21b4"
 
 Name "${FULLNAME} ${VERSION}"
 
@@ -54,7 +54,7 @@ ShowUninstDetails show
 !macro COPY_TO_DLC DLC_NAME
     IfFileExists "$INSTDIR\assets\DLC\${DLC_NAME}" 0 +3
         SetOutPath "$INSTDIR\assets\DLC\${DLC_NAME}\Gameplay\XML\Text"
-        File /r "assets\DLC\${DLC_NAME}\Gameplay\XML\Text\*"
+        File /r "output\Assets\DLC\${DLC_NAME}\Gameplay\XML\Text\*"
 !macroend
 
 !macro REMOVE_FROM_DLC DLC_NAME
@@ -80,19 +80,19 @@ Section -Main SEC0000
     Rename "$INSTDIR\assets\SQL\Civ5LocalizationDatabaseSchema.sql" "$INSTDIR\${NAME}\assets\SQL\Civ5LocalizationDatabaseSchema.sql"
     # 複製需覆蓋的檔案
     SetOutPath "$INSTDIR\assets\UI\Fonts\Tw Cent MT"
-    File "assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml"
+    File "output\Assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml"
     SetOutPath "$INSTDIR\assets\UI\Options"
-    File "assets\UI\Options\OptionsMenu.xml"
+    File "output\Assets\UI\Options\OptionsMenu.xml"
     SetOutPath "$INSTDIR\assets\DLC\Expansion\UI\Options"
-    File "assets\DLC\Expansion\UI\Options\OptionsMenu.xml"
+    File "output\Assets\DLC\Expansion\UI\Options\OptionsMenu.xml"
     SetOutPath "$INSTDIR\${NAME}"
     File "readme.txt"
     SetOutPath "$INSTDIR\assets\SQL"
-    File "assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql"
-    File "assets\SQL\Civ5LocalizationDatabaseSchema.sql"
+    File "output\Assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql"
+    File "output\Assets\SQL\Civ5LocalizationDatabaseSchema.sql"
     # 複製遊戲主要文字
     SetOutPath "$INSTDIR\assets\Gameplay\XML\NewText"
-    File /r "assets\Gameplay\XML\NewText\*"
+    File /r "output\Assets\Gameplay\XML\NewText\*"
     # 複製 DLC 文字
     !insertmacro COPY_TO_DLC DLC_01
     !insertmacro COPY_TO_DLC DLC_02
@@ -165,21 +165,23 @@ Section -un.Main UNSEC0000
     Delete "$INSTDIR\assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml"
     Delete "$INSTDIR\assets\UI\Options\OptionsMenu.xml"
     Delete "$INSTDIR\assets\DLC\Expansion\UI\Options\OptionsMenu.xml"
-    #Rename "$INSTDIR\${NAME}\assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml" "$INSTDIR\assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml"
-    SetOutPath "$INSTDIR\assets\UI\Fonts\Tw Cent MT"
-    File "civ5zh\assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml"
-    #Rename "$INSTDIR\${NAME}\assets\UI\Options\OptionsMenu.xml" "$INSTDIR\assets\UI\Options\OptionsMenu.xml"
-    SetOutPath "$INSTDIR\assets\UI\Options"
-    File "civ5zh\assets\UI\Options\OptionsMenu.xml"
-    #Rename "$INSTDIR\${NAME}\assets\DLC\Expansion\UI\Options\OptionsMenu.xml" "$INSTDIR\assets\DLC\Expansion\UI\Options\OptionsMenu.xml"
-    SetOutPath "$INSTDIR\assets\DLC\Expansion\UI\Options"
-    File "civ5zh\assets\DLC\Expansion\UI\Options\OptionsMenu.xml"
+    Rename "$INSTDIR\${NAME}\assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml" "$INSTDIR\assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml"
+    #SetOutPath "$INSTDIR\assets\UI\Fonts\Tw Cent MT"
+    #File "$INSTDIR\${NAME}\assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml"
+    Rename "$INSTDIR\${NAME}\assets\UI\Options\OptionsMenu.xml" "$INSTDIR\assets\UI\Options\OptionsMenu.xml"
+    #SetOutPath "$INSTDIR\assets\UI\Options"
+    #File "$INSTDIR\${NAME}\assets\UI\Options\OptionsMenu.xml"
+    Rename "$INSTDIR\${NAME}\assets\DLC\Expansion\UI\Options\OptionsMenu.xml" "$INSTDIR\assets\DLC\Expansion\UI\Options\OptionsMenu.xml"
+    #SetOutPath "$INSTDIR\assets\DLC\Expansion\UI\Options"
+    #File "$INSTDIR\${NAME}\assets\DLC\Expansion\UI\Options\OptionsMenu.xml"
     #Delete and Rename SQLs
     Delete "$INSTDIR\assets\SQL\Civ5LocalizationDatabaseSchema.sql"
     Delete "$INSTDIR\assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql"
-    SetOutPath "$INSTDIR\assets\SQL"
-    File "civ5zh\assets\SQL\Civ5LocalizationDatabaseSchema.sql"
-    File "civ5zh\assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql"
+    #SetOutPath "$INSTDIR\assets\SQL"
+    #File "$INSTDIR\${NAME}\assets\SQL\Civ5LocalizationDatabaseSchema.sql"
+    #File "$INSTDIR\${NAME}\assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql"
+    Rename "$INSTDIR\${NAME}\assets\SQL\Civ5LocalizationDatabaseSchema.sql" "$INSTDIR\assets\SQL\Civ5LocalizationDatabaseSchema.sql"
+    Rename "$INSTDIR\${NAME}\assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql" "$INSTDIR\assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql"
     RmDir /r "$INSTDIR\${NAME}"
     # 移除自身
     Delete /REBOOTOK "$INSTDIR\${NAME}_uninstall.exe"

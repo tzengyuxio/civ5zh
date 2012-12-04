@@ -21,28 +21,8 @@ countDir = 0
 countFile = 0
 
 
-def copyLocaleFiles(path):
-    if not os.path.isdir(path):
-        return
-
-    lastDir = os.getcwd()
-    os.chdir(path)
-    
-    dirName = os.path.basename(path)
-    if dirName == 'zh_CN' or dirName == 'zh_TW':
-        dstPath = path.replace(dirOrigin, dirOutput)
-        print "[dir] coping dir: %s to %s" % (path, dstPath)
-        countDir++
-        shutil.copytree(path, dstPath)
-    else:
-        subPathList = os.listdir(path)
-        for subPath in subPathList:
-            copyLocaleFiles(os.path.abspath(subPath))
-            
-    os.chdir(lastDir)
-
-
 def processPath(path, inZhCn):
+    global countDir
     lastPath = os.getcwd()
     os.chdir(path)
 
@@ -55,6 +35,7 @@ def processPath(path, inZhCn):
     
     if isZhCn or inZhCn:
         print os.path.basename(path) + "\t" + os.path.abspath(path)
+        countDir += 1
 
     fileList = os.listdir(".")
     for subPath in fileList:
@@ -78,25 +59,6 @@ def processPath(path, inZhCn):
     os.chdir(lastPath)
 
 
-def setupLocaleFiles():
-    # 刪除目的資料夾
-    cmdRmdir = 'rmdir /s /q "%s"' % dirOutput
-    os.system(cmdRmdir)
-    # 重建目的資料夾
-    os.makedirs(dirOutput)
-    copyLocaleFiles(dirOrigin)
-
-    # 針對特殊檔案進行複製
-    for sf in specialFiles:
-        origFile = dirOrigin + sf
-        targetFile = dirOutput + sf
-        targetPath = os.path.dirname(targetFile)
-        if not os.path.isdir(targetPath):
-            os.makedirs(targetPath)
-        print '[file] coping file: %s' % sf
-        shutil.copy(origFile, targetFile)
-
-
 def preprocess():
     ## 刪除目的資料夾
     cmdRmdir = 'rmdir /s /q "%s"' % dirOutput
@@ -108,35 +70,42 @@ def preprocess():
 
     ## 需手動修改內容
     prefix = os.path.abspath(dirOutput + dirAssets)
-    xmlFile = prefix + '\\Gameplay\\XML\\NewText\\Chinese.xml'
+    
+    xmlCnOld = prefix + '\\Gameplay\\XML\\NewText\\Chinese.xml'
     xmlCn = prefix + '\\Gameplay\\XML\\NewText\\ChineseSimp.xml'
     xmlTw = prefix + '\\Gameplay\\XML\\NewText\\ChineseTrad.xml'
+    os.remove(xmlCnOld)
+    shutil.copy(".\\special\\ChineseSimp.xml", xmlCn)
+    shutil.copy(".\\special\\ChineseTrad.xml", xmlTw)
+    
     creditsCn = prefix + '\\Gameplay\\XML\\NewText\\CIV5Credits_zh_CN.txt'
     creditsTw = prefix + '\\Gameplay\\XML\\NewText\\CIV5Credits_zh_TW.txt'
     dlcCreditsCn = prefix + '\\DLC\\Expansion\\Gameplay\\XML\\Text\\CIV5Credits_zh_CN.txt'
     dlcCreditsTw = prefix + '\\DLC\\Expansion\\Gameplay\\XML\\Text\\CIV5Credits_zh_TW.txt'
-    os.rename(xmlFile, xmlCn)
-    convertZ(xmlCn, xmlTw) # 這個檔不能單單轉換
     convertZ(creditsCn, creditsTw)
     convertZ(dlcCreditsCn, dlcCreditsTw)
 
+    sqlPath = prefix + '\\SQL\\'
+    shutil.copy(".\\special\\Civ5DlcLocalizationDatabaseSchema.sql", sqlPath)
+    shutil.copy(".\\special\\Civ5LocalizationDatabaseSchema.sql", sqlPath)
+    
 
 ## src, dst 的路徑需為絕對路徑
 def convertZ(src, dst):
+    global countFile
     lastPath = os.getcwd()
     os.chdir(absDirOpencc)
 
     ## 轉碼
     cccmd = 'opencc.exe -i "%s" -o "%s" -c zhs2zht.ini' % (src, dst)
     os.system(cccmd)
-    countFile++
+    countFile += 1
 
     os.chdir(lastPath)
 
 
 preprocess()
 processPath(dirOutput, False)
-# setupLocaleFiles()
 
 print 'count of locale dirs: %d' % (countDir,)
-print 'count of locale files: %d' % (countFile,)
+print 'count of locale files (converted): %d' % (countFile,)

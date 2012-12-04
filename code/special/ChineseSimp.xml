@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+    <Languages>
+        <Row>
+            <!--ID>9</ID-->
+            <Type>zh_CN</Type>
+            <Name>Chinese (Simp.)</Name>
+            <TableName>Language_zh_CN</TableName>
+            <PluralRule>1</PluralRule>
+            <UseExtendedFont>1</UseExtendedFont>
+            <FontName>SimSun</FontName>
+<!--			      <FontWidthScale>0.49</FontWidthScale>
+			      <FontHeightScale>0.98</FontHeightScale>-->
+        </Row>
+    </Languages>
+</GameData>

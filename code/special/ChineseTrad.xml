@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+    <Languages>
+        <Row>
+            <!--ID>0</ID-->
+            <Type>zh_TW</Type>
+            <Name>Chinese (Trad.)</Name>
+            <TableName>Language_zh_TW</TableName>
+            <PluralRule>1</PluralRule>
+            <UseExtendedFont>1</UseExtendedFont>
+            <!--FontName>MingLiU</FontName><!--細明體-->
+            <FontName>DFKai-SB</FontName><!--標楷體-->
+            <!--FontName>SimSun</FontName><!--宋体-->
+            <!--FontName>SimHei</FontName><!--黑体-->
+            <!--若使用以下字體，需調整字型寬高比例-->
+            <!--FontName>Meiryo</FontName><!--メイリオ-->
+            <!--FontName>Microsoft JhengHei</FontName><!--正黑體-->
+            <!--以下為正黑體的建議比例-->
+            <!--FontWidthScale>0.377</FontWidthScale-->
+			      <!--FontHeightScale>0.98</FontHeightScale-->
+        </Row>
+    </Languages>
+</GameData>
