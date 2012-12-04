@@ -185,6 +185,8 @@
                     <CheckBox Anchor="R,T" String="TXT_KEY_OPSCREEN_VSYNC" IsChecked="1" ID="VSyncCheck" ToolTip="TXT_KEY_OPSCREEN_RESTART_REQ_TT" />
                     <CheckBox Anchor="R,T" String="TXT_KEY_OPSCREEN_HIGH_DETAIL_STRAT_VIEW" IsChecked="0" ID="HDStratCheck" ToolTip="TXT_KEY_OPSCREEN_HIGH_DETAIL_STRAT_VIEW_TT" />
                     <CheckBox Anchor="R,T" String="TXT_KEY_OPSCREEN_GPU_TEXTURE_DECODE" IsChecked="0" ID="GPUDecodeCheck" ToolTip="TXT_KEY_OPSCREEN_GPU_TEXTURE_DECODE_TT" />
+                    <CheckBox Anchor="R,T" String="TXT_KEY_OPSCREEN_MINIMIZE_GRAY_TILES" IsChecked="0" ID="MinimizeGrayTilesCheck" ToolTip="TXT_KEY_OPSCREEN_MINIMIZE_GRAY_TILES_TT" Hidden="1"/>
+                    <CheckBox Anchor="R,T" String="TXT_KEY_OPSCREEN_FADE_SHADOWS" IsChecked="0" ID="FadeShadowsCheck" ToolTip="TXT_KEY_OPSCREEN_FADE_SHADOWS_TT" Hidden="1"/>
                 </Stack>
             </Box>
 

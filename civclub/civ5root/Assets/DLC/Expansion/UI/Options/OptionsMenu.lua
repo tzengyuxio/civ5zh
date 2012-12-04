@@ -742,7 +742,11 @@ function UpdateGraphicsOptionsDisplay()
     if ( not OptionsManager.IsGPUTextureDecodeSupported() ) then
 		Controls.GPUDecodeCheck:SetDisabled( true );
 		Controls.GPUDecodeCheck:SetAlpha( 0.5 );
-	end    
+	end
+	
+	Controls.MinimizeGrayTilesCheck:SetCheck( OptionsManager.GetMinimizeGrayTiles_Cached() );
+	Controls.FadeShadowsCheck:SetCheck( OptionsManager.GetFadeShadows_Cached() );
+	
     Controls.LeaderPull:GetButton():SetText( m_LeaderText[ OptionsManager.GetLeaderQuality_Cached() ] );
 	Controls.OverlayPull:GetButton():SetText( m_OverlayText[ OptionsManager.GetOverlayLevel_Cached() ] );
 	Controls.ShadowPull:GetButton():SetText( m_ShadowText[ OptionsManager.GetShadowLevel_Cached() ] );
@@ -1043,6 +1047,19 @@ function OnGPUTextureDecode( bIsChecked )
 end
 Controls.GPUDecodeCheck:RegisterCheckHandler( OnGPUTextureDecode );
 
+----------------------------------------------------------------
+----------------------------------------------------------------
+function OnMinimizeGrayTiles( bIsChecked )
+	OptionsManager.SetMinimizeGrayTiles_Cached( bIsChecked );
+end
+Controls.MinimizeGrayTilesCheck:RegisterCheckHandler( OnMinimizeGrayTiles );
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+function OnFadeShadows( bIsChecked )
+	OptionsManager.SetFadeShadows_Cached( bIsChecked );
+end
+Controls.FadeShadowsCheck:RegisterCheckHandler( OnFadeShadows );
 
 ----------------------------------------------------------------
 ----------------------------------------------------------------
