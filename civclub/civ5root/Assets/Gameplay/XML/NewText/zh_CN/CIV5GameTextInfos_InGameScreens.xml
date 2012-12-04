@@ -1505,7 +1505,19 @@
 		<Row Tag="TXT_KEY_OPSCREEN_VSYNC">
 			<Text>垂直同步</Text>
 		</Row>
-		<Row Tag="TXT_KEY_OPSCREEN_BLOCK_LOAD">
+    <Row Tag="TXT_KEY_OPSCREEN_MINIMIZE_GRAY_TILES">
+      <Text>缩减灰格</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_MINIMIZE_GRAY_TILES_TT">
+      <Text>滚动地图时将显示的灰色区块最小化。这会增加系统开销。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_FADE_SHADOWS">
+      <Text>启用阴影淡出</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_FADE_SHADOWS_TT">
+      <Text>视角拉远时不再显示阴影以提升运行效率。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_BLOCK_LOAD">
 			<Text>整体加载地形</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OPSCREEN_BLOCK_LOAD_TT">
