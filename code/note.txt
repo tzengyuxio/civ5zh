@@ -1,0 +1,9 @@
+## 不需要 "簡->繁" 的檔案 (v1.0.2.21)
+
+1. Assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql
+2. Assets\SQL\Civ5LocalizationDatabaseSchema.sql
+3. Assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml
+4. Assets\UI\Options\OptionsMenu.lua
+5. Assets\UI\Options\OptionsMenu.xml
+6. Assets\DLC\Expansion\UI\Options\OptionsMenu.lua
+7. Assets\DLC\Expansion\UI\Options\OptionsMenu.xml
