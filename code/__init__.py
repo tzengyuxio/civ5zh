@@ -10,13 +10,6 @@ dirAssets = "Assets\\"
 
 absDirOpencc = os.path.abspath(dirOpencc)
 
-specialFiles = ['Gameplay\\XML\\NewText\\CIV5Credits_zh_CN.txt',
-                'Gameplay\\XML\\NewText\\CIV5Credits_zh_TW.txt',
-                'Gameplay\\XML\\NewText\\ChineseSimp.xml',
-                'Gameplay\\XML\\NewText\\ChineseTrad.xml',
-                'UI\\Fonts\\Tw Cent MT\\TwCenMT14.ggxml',
-                'UI\\Options\\OptionsMenu.xml']
-
 countDir = 0
 countFile = 0
 
@@ -97,7 +90,7 @@ def convertZ(src, dst):
     os.chdir(absDirOpencc)
 
     ## 轉碼
-    cccmd = 'opencc.exe -i "%s" -o "%s" -c zhs2zhtw_p.ini' % (src, dst)
+    cccmd = 'opencc.exe -i "%s" -o "%s" -c zhs2zhtw_vpy.ini' % (src, dst)
     os.system(cccmd)
     countFile += 1
 
