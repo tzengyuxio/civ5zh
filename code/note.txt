@@ -1,4 +1,4 @@
-## ���ݭn "²->�c" ���ɮ� (v1.0.2.21)
+﻿## 不需要 "簡->繁" 的檔案 (v1.0.2.21)
 
 1. Assets\SQL\Civ5DlcLocalizationDatabaseSchema.sql
 2. Assets\SQL\Civ5LocalizationDatabaseSchema.sql
@@ -7,3 +7,14 @@
 5. Assets\UI\Options\OptionsMenu.xml
 6. Assets\DLC\Expansion\UI\Options\OptionsMenu.lua
 7. Assets\DLC\Expansion\UI\Options\OptionsMenu.xml
+
+
+## 漢化版與英文版相異之處
+
+- 介面設定檔有開啟語言選單
+  1. Assets\DLC\Expansion\UI\Options\OptionsMenu.xml
+  2. Assets\UI\Options\OptionsMenu.xml
+  
+- Assets\UI\Fonts\Tw Cent MT\TwCenMT14.ggxml
+
+- 2 SQL files
