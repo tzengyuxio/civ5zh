@@ -4,7 +4,7 @@
 ### 檔案下載
 漢化包同時在 droplr 與 Google Drive 兩個地方發佈。兩邊的檔案是相同的，擇一下載即可。最上方的為最新遊戲版本。如果你不知道自己的遊戲版本是哪個，通常下載最新的就是了。
 
-* 1.0.2.21b4: [droplr](http://d.pr/f/E65K)、[Google Drive](http://goo.gl/XJgw7)
+* 1.0.2.21b4: [droplr](http://d.pr/f/lNUG)、[Google Drive](http://goo.gl/XJgw7)
 * 1.0.2.13b3: [droplr](http://d.pr/f/ZLyG)、[Google Drive](http://goo.gl/sizhF)
 
 ### 安裝與解除
