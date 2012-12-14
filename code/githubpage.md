@@ -11,7 +11,7 @@
 
 安裝很簡單，執行壓縮檔中的 `civ5zh_setup-[版本號].exe` 即可。請注意安裝過程中的遊戲路徑設定是否正確。安裝好進入遊戲後可從標題畫面進入以下選單切換語言：
 
-    開始選單 > "OPTIONS(遊戲設置)" > "INTERFACE OPTIONS(介面選項)"
+    `開始選單 > "OPTIONS(遊戲設置)" > "INTERFACE OPTIONS(介面選項)"`
 
 在「介面選項」頁面的下方有下拉式選單，可以切換英文與繁簡中文。
       
@@ -29,7 +29,7 @@
 
 因此如果你想修改遊戲顯示字型，改成「標楷體」以外字型的話，可以用文字編輯軟體開啟以下檔案：
 
-    [遊戲安裝路徑]\Assets\Gameplay\XML\NewText\ChineseTrad.xml
+    `[遊戲安裝路徑]\Assets\Gameplay\XML\NewText\ChineseTrad.xml`
     
 裡頭我有標記一些常用字型的名稱與參數，依照個人需求修改即可。
 
@@ -54,12 +54,11 @@
 [4]: http://i.imgur.com/nz8pv.jpg
 
 ### Authors and Contributors
-關於本漢化包，我 (@tzengyuxio) 主要撰寫了兩個 Script 檔，一個是批次將所有簡體中文轉成繁體中文的工具，另外一個則是建立漢化包的 NSIS 指令稿。所有的文本內容翻譯工作，均為《塞爱维&天邈文明5神佑君王汉化包》小組成員的辛勤工作成果。
+關於本漢化包，我 (@tzengyuxio) 主要撰寫了兩個 Script 檔，一個是批次將所有簡體中文轉成繁體中文的工具程式，另外一個則是建立漢化包的 NSIS 指令稿。所有的文本內容翻譯工作，均為《塞爱维&天邈文明5神佑君王汉化包》小組成員的辛勤工作成果。
 
-另外，本專案使用 [opencc](http://code.google.com/p/opencc/) 來做為簡繁轉換的工具。
+另外，本專案使用 [opencc](http://code.google.com/p/opencc/) 來做為簡繁轉換的工具。打包則使用 [Unicode NSIS](http://www.scratchpaper.com/)。
 
 ### 聯絡
 對於此漢化包在使用上有任何建議或問題，都相當歡迎[來信討論](tzengyuxio+civzh@gmail.com)。
 
-對於翻譯內容有建議的話，可至塞爱维的「文明5专题区」討論
-http://www.civclub.net/bbs/viewthread.php?tid=75416
+對於翻譯內容有建議的話，可至[塞爱维的「文明5专题区」](http://www.civclub.net/bbs/viewthread.php?tid=75416)反應。
