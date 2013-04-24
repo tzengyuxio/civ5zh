@@ -55,12 +55,11 @@
 [4]: http://i.imgur.com/nz8pv.jpg
 
 ### Authors and Contributors
-關於本漢化包，我 (@tzengyuxio) 主要撰寫了兩個 Script 檔，一個是批次將所有簡體中文轉成繁體中文的工具，另外一個則是建立漢化包的 NSIS 指令稿。所有的文本內容翻譯工作，均為《塞爱维&天邈文明5神佑君王汉化包》小組成員的辛勤工作成果。
+關於本漢化包，我 (@tzengyuxio) 主要撰寫了兩個 Script 檔，一個是批次將所有簡體中文轉成繁體中文的工具程式，另外一個則是建立漢化包的 NSIS 指令稿。所有的文本內容翻譯工作，均為《塞爱维&天邈文明5神佑君王汉化包》小組成員的辛勤工作成果。
 
-另外，本專案使用 [opencc](http://code.google.com/p/opencc/) 來做為簡繁轉換的工具。
+另外，本專案使用 [opencc](http://code.google.com/p/opencc/) 來做為簡繁轉換的工具。建立安裝包則是使用 [Unicode NSIS](http://www.scratchpaper.com/)。
 
 ### 聯絡
 對於此漢化包在使用上有任何建議或問題，都相當歡迎[來信討論](tzengyuxio+civzh@gmail.com)。
 
-對於翻譯內容有建議的話，可至塞爱维的「文明5专题区」討論
-http://www.civclub.net/bbs/viewthread.php?tid=75416
+對於翻譯內容有建議的話，可至[塞爱维的「文明5专题区」](http://www.civclub.net/bbs/viewthread.php?tid=75416)反應。
