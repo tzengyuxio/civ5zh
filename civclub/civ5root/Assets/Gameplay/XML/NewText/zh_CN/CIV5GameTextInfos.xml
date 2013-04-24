@@ -1162,7 +1162,7 @@
 			<Text>游戏教程——边玩边学！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BACK_BUTTON">
-			<Text>后退</Text>
+			<Text>返回</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FORWARD_BUTTON">
 			<Text>前进</Text>

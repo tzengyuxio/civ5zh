@@ -6,7 +6,7 @@
 			<Text>亚洲</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MAP_ASIA_HELP">
-			<Text>本地图包括东亚、南亚及东南亚</Text>
+			<Text>包括东亚、南亚及东南亚的较大尺寸地图</Text>
 		</Row>
 	</Language_zh_CN>
 </GameData>

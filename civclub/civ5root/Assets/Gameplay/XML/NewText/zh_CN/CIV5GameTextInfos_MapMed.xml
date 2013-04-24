@@ -6,7 +6,7 @@
 			<Text>地中海</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MAP_MED_HELP">
-			<Text>本地图包括整个地中海沿岸地区</Text>
+			<Text>包括整个地中海沿岸地区的较大尺寸地图</Text>
 		</Row>
 	</Language_zh_CN>
 </GameData>

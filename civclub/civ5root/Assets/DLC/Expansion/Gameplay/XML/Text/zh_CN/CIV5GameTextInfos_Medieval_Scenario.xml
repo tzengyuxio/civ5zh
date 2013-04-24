@@ -303,7 +303,7 @@
 			<Text>{@1_PlayerName}的一支远征队已踏上新大陆的征程！由此次探险的壮举他们获得{2_VPAmount}胜利点。派出{3_NumRemaining}支更多的探险队将获得探险胜利点。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_SPECIFIC_DIPLO_STRING_1">
-			<Text>你改信了其他宗教。</Text>
+			<Text>你秉持不同的信仰。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_SPECIFIC_DIPLO_STRING_2">
 			<Text>你征服了异教圣城！</Text>

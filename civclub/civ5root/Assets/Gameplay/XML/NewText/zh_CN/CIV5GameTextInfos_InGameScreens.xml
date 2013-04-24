@@ -1689,7 +1689,7 @@
 			<Text>在{1_TerrainName:textkey}上获得更高移动力</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_IMPROVED">
-			<Text>{1_ImprovementName:textkey} {2_YieldType:textkey} 产出提高了{3_Num}。</Text>
+			<Text>{1_ImprovementName:textkey} {2_YieldType:textkey}产出提高{3_Num}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_FRESH_WATER">
 			<Text>在没有淡水时，{1_ImprovementName:textkey}提高{3_Num}点{2_YieldType:textkey}产出。</Text>
